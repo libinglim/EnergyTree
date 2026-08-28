@@ -1,10 +1,10 @@
 # EnergyTree
 
-A biomimetic wind energy harvester inspired by trees and leaves. Instead of a traditional turbine, EnergyTree uses PVDF (polyvinylidene fluoride) piezoelectric film strips mounted on a tree-like frame — much like leaves — that flap and collide in the wind to generate electricity.
+A biomimetic wind energy harvester inspired by trees and leaves. Instead of a traditional turbine, EnergyTree uses PVDF piezoelectric film strips mounted on a tree-like frame that flap and collide in the wind to generate electricity.
 
 ## Overview
 
-Conventional small-scale wind turbines lose efficiency in turbulent, low-speed, or gusty conditions — exactly the conditions found in urban and near-ground environments. EnergyTree takes a different approach: it mimics how leaves flutter and brush against each other in the wind, using flexible PVDF piezoelectric strips as "leaves" that generate small voltage spikes from mechanical strain and inter-strip collisions.
+Conventional small-scale wind turbines lose efficiency in turbulent, low-speed, or gusty conditions. EnergyTree takes a different approach: it mimics how leaves flutter and brush against each other in the wind, using flexible PVDF piezoelectric strips as "leaves" that generate small voltage spikes from mechanical strain and inter-strip collisions.
 
 **Core concept:**
 - PVDF film strips (LDT0-028K) are mounted on a branching frame, spaced ~8–12mm apart to intentionally induce inter-strip collisions — a phenomenon referred to here as **coupled Multiple Impact Excitation (MIE)**.
@@ -37,7 +37,3 @@ This project is built on and extends existing academic work on PVDF wind energy 
 | 100µF 25V electrolytic capacitors | Energy storage |
 | 830-point breadboard + jumper wires | BOJACK kit |
 | Alligator clip cables | For interfacing with film strips |
-
-## Status
-
-**Phase 1: Proof-of-concept circuit validation** — Tinkercad simulation complete. Moving toward LTspice validation and physical breadboard prototyping.
